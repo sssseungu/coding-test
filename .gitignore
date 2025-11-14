@@ -1,0 +1,5 @@
+# 코드를 테스트하기 위한 입력값을 담은 텍스트 파일
+/baekjun/input.txt
+/leetcode
+.DS_store
+not-completed
