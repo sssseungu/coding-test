@@ -33,7 +33,8 @@ def BFS(begin_word: str, target_word: str, words: list[str]):
     if begin_word in words:
         visited[words.index(begin_word)] = True
 
-    next_words = []  # 단계별로 count를 업데이트하기 위해 next_words라는 리스트 선언 후 tuple로 묶음
+    # 단계별로 count를 업데이트하기 위해 next_words라는 하나의 리스트로 묶음
+    next_words = []
     while queue:
 
         cur_words = queue.popleft()
