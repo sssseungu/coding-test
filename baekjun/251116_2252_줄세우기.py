@@ -24,10 +24,6 @@ for i in range(1, n + 1):
     if indegree[i] == 0:  # 들어오는 edge가 없는 node 먼저 배치
         queue.append(i)
 
-print(f"graph: {graph}")
-print(f"indegree: {indegree}")
-print(f"queue: {list(queue)}")
-
 result = []
 while queue:
     node = queue.popleft()
